@@ -10,7 +10,6 @@ void draw() {
   background(0);
   stroke(255);
   strokeWeight(2);
-  //beginShape();
   text("sin wave", 20, height/4-40);
   text("perlin noise", 20, height/2-40);
   text("random", 20, 3*height/4-40);
@@ -19,8 +18,6 @@ void draw() {
     point(i, sin(off)*10+height/4);
     point(i, noise(off)*20+height/2);
     point(i, random(20)+3*height/4);
-    println(off);
   }
   move+=0.05;
-  //endShape();
 }
