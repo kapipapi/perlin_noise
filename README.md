@@ -1,3 +1,0 @@
-perlin
-=======
-perlin_noise
